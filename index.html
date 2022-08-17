@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+
+	<link rel="stylesheet" href="styles.css">
+	<script src="https://kit.fontawesome.com/66a92f3a1a.js" crossorigin="anonymous"></script>
+	<title>Grammar points summary</title>
+
+	
+</head>
+
+<body>
+
+	<a href="" class="to-top"><i class="fas fa-arrow-alt-circle-up"></i></a>
+	<nav class="topnav" id="myTopnav">
+		<a href="#home" class="active">Home</a>
+		<a href="#about-me">About me</a>
+		<a href="#verbs-pp">Verbs past participle</a>
+			<a href="#phrasal-verbs">Phrasal Verbs</a>
+			<a href="#atonin">AT ON IN</a>
+			<a href="#present-perfect">Present perfect</a>
+			<a href="#present-perf-fa">Present perfect tense frequently adverbs</a>
+			<a href="#stat-and-Non-actVrb">Stative and Non-action Verbs</a>
+			<a href="#Pres-perf-prog">Present perfect progressive</a>
+			<a href="#past-perfect">Past perfect </a>
+			<a href="#pastPerfect-WH">Past perfect- WH</a>
+			<a href="#Modals">Modals = helping verbs</a>
+			<a href="#phrMod">Phrasal modals</a>
+			<a href="#maybe">Maybe and may be</a>
+			<a href="#avmodals">Advice modals</a>
+			<a href="#adjectives">Adjectives</a>
+			<a href="#boring">Boring and Bored</a>
+			<a href="#comsup">Comparative and superlative</a>
+			<a href="#AdjClaus">Adjective clauses</a>
+			<a href="#adjprep">Adjective clauses with prepositions</a>
+
+
+		
+		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+		  <i class="fa fa-bars"></i>
+		</a>
+	</nav>
+	<div class="grid-container">
+		
+		<header>
+			<h1> My digital Scrapbook :)</h1>
+			<h2>Grammar points Summary</h2>
+		</header>
+		<div class="section">
+			<main>
+				<p id="about-me">
+					<strong>
+						<h3>About me,</h3>
+					</strong>
+					<img id="mai" src="./img/Maï.jpeg" alt="my-photo">
+					Hello Everyone, my name is Maï, I'm so glad to make this project which helps me to improve my
+					English as well as practice a bit with HTML and CSS. <br>
+				</p>
+				<p>I love to learn and practice, and my passion is a travel and meets new friends. This project will
+					help me to understand a bit more the grammar. I hope that it helps you also!</p> 
+				</main>
+			<section>
+				<hr>
+				<h3>Acknowledgments:</h3>
+				<p>I'd also like to express my gratitude to:</p>
+				<li><a href="https://www.inefop.org.uy/home"target="_blank" rel="noopener noreferrer">INEFOP Uruguay</a></li>
+				<li><a href="https://www.coursera.org/learn/intermediate-grammar-capstone/home/info" target="_blank" rel="noopener noreferrer">Coursera-Intermediate Grammar Project
+					by Universidad de California en Irvine </a></li>
+				<hr>		
+			</section>
+
+			
+
+			<section>
+				<h4 id="verbs-pp">Verbs Past participle</h4>
+				<p>
+					In grammar, the past participle of a verb is a form
+					that is usually the same as the past form and so ends in '-ed'.
+					A number of verbs have irregular past participles, for example ' break'
+					(past participle 'broken'), and ' come' (past participle 'come').
+					Past participles are used to form perfect tenses and the passive voice,
+					and many of them can be used like an adjective in front of a noun. </p>
+				<p>
+				<p><q>URL <a href="https://bit.ly/3cNYnEF" target="_blank" rel="noopener noreferrer">
+							Article title pp definición y significado: Diccionario Inglés Collins</a>
+						<br> Date accessed July 31, 2022</q></p>
+				<table>
+					<thead>
+						<tr>
+							<th>Present</th>
+							<th>Past simple</th>
+							<th>Past Participle</th>
+						</tr>
+					</thead>
+					<tr>
+						<td>be</td>
+						<td>was/were</td>
+						<td>been</td>
+					</tr>
+					<tr>
+						<td>catch</td>
+						<td>caught</td>
+						<td>caught</td>
+					</tr>
+					<tr>
+						<td>have</td>
+						<td>had</td>
+						<td>had</td>
+					</tr>
+					<tr>
+						<td>do</td>
+						<td>did</td>
+						<td>done</td>
+					</tr>
+					<tr>
+						<td>drive</td>
+						<td>drove</td>
+						<td>driven</td>
+					</tr>
+					<tr>
+						<td>fall</td>
+						<td>fell</td>
+						<td>fallen</td>
+					</tr>
+					<tr>
+						<td>feel</td>
+						<td>felt</td>
+						<td>felt</td>
+					</tr>
+					<tr>
+						<td>speak</td>
+						<td>spoke</td>
+						<td>spoken</td>
+					</tr>
+					<tr>
+						<td>sit</td>
+						<td>sat</td>
+						<td>sat</td>
+					</tr>
+					<tr>
+						<td>swim</td>
+						<td>swam</td>
+						<td>swum</td>
+					</tr>
+					<tr>
+						<td>teach</td>
+						<td>taught</td>
+						<td>taught</td>
+					</tr>
+					<tr>
+						<td>wear</td>
+						<td>wore</td>
+						<td>worn</td>
+					</tr>
+				</table>
+				</p>
+			</section><hr>
+
+			<section>
+		
+				<h4 id="atonin">AT ON IN</h4>
+				<p> <em>AT:</em> Hours
+				
+					<ul id="at"></ul>
+				<template id="template-At">
+				<li class="list"><em>At </em> <span class="fuego">${item}</span></li>
+				</template>
+				</p>
+				<p>
+					<em>ON:</em> Days
+				<ul id="ul-On">
+					<li> <em>On</em> my birthday, on Saturday</li>
+					<li><em>On</em> the weekend, on June 8th</li>
+					<li><em>On</em> Broadway Street, on the beach, on my street </li>
+					<li><em>On</em> the table, on the floor, on the bus, on the plane, on a boat</li>
+
+				</ul>
+				<template id="template-On">
+					<li class="listOn"><em>On</em> <span class="list-On">${item2}</span></li>
+					</template>
+				</p>
+				<p>
+					<em>IN:</em> Weeks,months, years, decades
+				<ul>
+					<li><em>In</em> the 20th century, <em>In</em> the 1986's, <em>In</em> October, 
+					<em>In</em> the third week of March, <em>In</em> the future
+					Locations </li>
+					<li><em>In</em> the United States, <em>In</em> Miami, <em>In</em> my neighborhood</li>
+					<li><em>In</em> the kitchen, <em>In</em> the house, 
+					the water is <em>in</em> the glass
+					<em>In</em> the car, <em>In</em> the taxi</li>
+
+				</ul>
+				</p>
+			</section> <hr>
+			<section>
+				<h4 id="phrasal-verbs">Phrasal Verbs</h4>
+				<p>
+				<p>You use phrasal verbs daily while speaking.
+					A phrasal verb is actually a verb made up of two or more
+					words: the main verb with an adverb or preposition, or both.
+					Using these words in combination gives them a meaning
+					different from that of the individual words used.
+					This makes them difficult for non-native English
+					speakers to understand.</p>
+				<h5>examples:</h5>
+				<img class="imgArticles" src="./img/pb1.png" alt="bbc-article">
+				<img class="imgArticles" src="./img/pb2.png" alt="bbc-article2">
+				<br>
+				<q>Article title:'We can't afford broadband, so run the baby monitor on 4G'<br>
+					URL: <a href="https://bbc.in/3Q4oxRW" target="_blank" rel="noopener noreferrer">BBC News</a> <br>
+					Date accessed:July 30, 2022
+					Date published:July 20, 2022</q>
+				</p>
+				<p>
+					<em>works out: </em> solve a problem<br>
+					<em>turn it on: </em> to activate or cause to flow <br>
+					<em>cutting back: </em> reduce the amount or quantity of something, especially expenditure. <br>
+					<em>getting into: </em> start enjoying something, or to become enthusiastic about it
+				</p>
+				<p>
+				<h5>others examples</h5>
+				Break away - to leave something. <br>
+				Break down - to become very upset. <br>
+				Break into - to enter a building by force. <br>
+				Break off - to break a piece from something. <br>
+				Break out of - to escape from somewhere. <br>
+				Break through - to pass through a barrier. <br>
+				Break up - to finish a romantic relationship with someone.
+
+				</p>
+			</section><hr>
+
+			<section>
+				<h4 id="present-perfect">Present perfect</h4>
+				<p><b> subject + Have / has + pp <br>
+						subject + hasn't-has not / vaven't-have not <br>
+					</b><br>
+					You have worked <br>
+					You've worked <br>
+					Have you ever met Paul? <br>
+					I have not finished my work
+					I've lost my purse </p>
+				<img class="imgArticles" src="./img/aarp1.png" alt="Article-aarp">
+				<img class="imgArticles" src="./img/aarp2.png" alt="Article-aarp">
+				<img class="imgArticles" src="./img/aarp3.png" alt="Article-aarp">
+				<img class="imgArticles" src="./img/aarp4.png" alt="Article-aarp"> <br>
+				<q>Article title
+					Stars and Filmmakers Over 50 Still Excelling in Hollywood <br>
+					URL <a href="https://bit.ly/3JhhuDg" target="_blank" rel="noopener noreferrer">
+						Website title AARP</a> <br>
+					Date accessed July 31, 2022 / Date published July 26, 2022</q>
+			</section><hr>
+			<section>
+				<h4 id="present-perf-fa">Present perfect tense frequently adverbs </h4>
+				<p>The position of adverbs such as; always, never, only, still, just etc.
+					are placed after the auxiliary verb and before the past participle:
+				<p>
+				<ul>
+					<li>I've just seen Sarah.</li>
+					<li>I have only spoken to her over the phone.</li>
+				</ul>
+
+				</p>
+				<q>Article title
+					URL <a href="https://bit.ly/2CohyNp" target="_blank" rel="noopener noreferrer">
+						Advanced Level: Present Perfect Tense</a> <br>
+					Website title EC English language schools
+					Date accessed July 31, 2022</q>
+				</p>
+				<p>
+				<ul>
+					<li>Have you ever been to canada?</li>
+					<li>I've never gone alone </li>
+					<li>I haven't tried it yet</li>
+					<li>I've already purchases a plane ticket</li>
+					<li>Have you ever ridden an elephant</li>
+				</ul>
+				</p>
+			</section><hr>
+
+			<section>
+			<h4 id="stat-and-Non-actVrb">Stative Verbs- Non action verbs</h4>
+				<p> <b>Stative</b>
+			Stative verbs describe a state rather than an action. 
+			They aren't usually used in the present continuous form.
+					
+			If the foods tastes delicious, most of these customers will return 
+			It smells wonderful at this café
+			These people look relaxed and happy
+			Do you see the man in the orange shirt</p>
+			<q>Article title: Stative verbs
+				URL <a href="https://bit.ly/2CohyNp" target="_blank"">
+					Website title: LearnEnglish</a>
+				Date accessed: August 8, 2022
+				Date published: May 14, 2020</q>
+			<p><b>Non Action</b>
+				Some people are tasting the coffee to make sure it's not hot
+				A man is smelling his food before he takes a bit
+				A woman is looking at a menu</p>
+				<q>
+					Article title
+
+URL <a href="https://bit.ly/3zATSFg" target="_blank" rel="noopener noreferrer">
+	Action and non-action verbs - English Grammar Guide
+</a>
+Website title: Insegnanti Inglese a Milano
+Date accessed:August 8, 2022</q>
+</section><hr>
+
+<section>
+	<h4 id="Pres-perf-prog">Present Perfect progressive</h4>
+	<b>Subject+ has/have + been + ing</b>
+<p>
+	<ul>
+		<li>She has been swimming for 30 minutes</li>
+		<li>She has been swimming since 11:00</li>
+		<li>Emmily has been stdying for three months</li>
+	</ul>
+</p>
+<img class="imgArticles" src="./img/NancyYue.png" alt="She has been"><br>
+<q>	URL <a href="https://bit.ly/3bG46wc" target="_blank" rel="noopener noreferrer">
+	Article title
+	Bot detection!</a>
+	Website title:Largest English pronunciation resource on the web. How to pronounce any word in English. YouGlish
+	Date accessed
+	August 8, 2022</q>
+</section><hr>
+
+<section>
+	<h4 id="past-perfect">Past Perfect</h4>
+	<p>
+		<b>Subject + Had + past participle</b>
+		<li>We had lived in Spain for three years</li>
+		<li>I'd had met them before the meeting</li>
+	</p>
+
+	<img class="imgArticles" src="./img/we had begun.png" alt="We had begun"><br>
+<q>
+	<a href="https://bit.ly/3SuVJnT" target="_blank" rel="noopener noreferrer">Article title
+Bot detection!</a>
+	Website title Largest English pronunciation resource on the web. 
+	How to pronounce any word in English. YouGlish
+	Date accessed August 8, 2022</q> <br>
+
+	<p><img class="imgArticles" src="./img/had.subject.png" alt="has + subject">
+
+</p>
+<q><a href="https://bbc.in/3JPi7En" target="_blank" rel="noopener noreferrer">US police arrest man over murders of Muslim men</a>
+	BBC News
+	Date accessed: August 9, 2022
+	Date published:August 09, 2022
+		</q>
+</section> <hr>
+<section>
+	<h4 id="pastPerfect-WH">Past perfect- WH</h4>
+	<p><b>WH + had + subject + pp</b>
+	<li>Why had she eaten?</li>
+	<li>Where had she gone?</li>
+	<li>How had we met</li>
+	<li>When had they left</li>
+	</p>
+	<a href="https://bit.ly/3bMfcjm" target="_blank" rel="noopener noreferrer">Intermediate Grammar Project
+		by Universidad de California en Irvine</a>
+</section><hr>
+<section>
+	<h4 id="Modals">Modals = helping verbs</h4>
+	<p><b>SUBJECT + Modal + main verb</b>
+		<p>Modal verbs show possibility, intent, ability, or necessity.
+			Because they're a type of auxiliary verb (helper verb),
+			they're used together with the main verb of the sentence.
+			Common examples include can, should, and must. </p>
+		<q>
+			<a href="https://www.grammarly.com/blog/modal-verbs/" target="_blank" rel="noopener noreferrer">
+				What Are Modal Verbs?-Definition & Usage Examples | Grammarly Blog</a><br>
+		Date accessed:August 16, 2022. Date published:October 26, 2021
+		</q>
+
+		<h5>Modals</h5>
+	<ul>
+	<li>can</li>
+	<li>could</li>
+	<li>may</li>
+	<li>might</li>
+	<li>should</li>
+	<li>had better</li>
+	<li>must</li>
+	<li>will</li>
+	<li>would</li>
+	</ul>
+	</p>
+	<p>
+		<img class="imgArticles" src="./img/could1.png" alt="Modals">
+	<img class="imgArticles" src="./img/could1.png" alt="Modals">
+	</p>
+	<q>
+		<a href="https://bit.ly/3BXW0ts" target="_blank" rel="noopener noreferrer">
+			Kevin Morby and Rachel Kushner on Life, Death, and Nipple Guards
+		</a>
+
+Website title: Interview Magazine
+Date accessed: August 9, 2022
+Date published:August 09, 2022
+	</q>
+	<p>
+		<h5>Others examples</h5>
+		<ul>
+		<li>She can return</li>
+		<li>Karen could be the team leader/ she couldn't the team leader</li>
+		<li>Could I have a coffee?</li>	
+		<li>We use may when we are not sure about something in present or future</li>	
+		<li>Jack may be coming to see us tomorrow</li>	
+		<li>May I borrow the car tomorrow</li>
+		<li>You may go now</li>	
+		<li>I might see you tomorrow</li>
+		<li>I should take the dog out</li>	
+		<li>The students must wear a uniform</li>
+		<li>I will never forget you</li>
+		<li>I would love a coffee</li>
+		<li>I would rather come with you</li>
+		<li>I'd rather you came with us. </li>	
+		</ul>		
+	</p>
+</section><hr>
+<section>
+	<h4 id="phrMod">Phrasal modals </h4>
+	<p><b>subject + phrasal modal verb + base form of the verb</b>
+		Phrasal modal verbs contain a simple modal and another verb, and adverb,
+		or a preposition. There are 5 types of phrasal modal verbs: ability,
+		permission, probability, advice, and necessity or obligation.</p>
+	<q>
+		<a href="https://bit.ly/3c1Abig" target="_blank" rel="noopener noreferrer">
+			Phrasal Modal Verbs in English--Modals with Two or More Words</a><br>
+		Common Ground International Language Services -Date accessed:August 16, 2022-
+Date published:April 12, 2021.
+	</q><br>
+	<ul>
+		<li><em>Have to</em>  = they have to run</li>
+<li><em>have got to</em> = We haven't got to pay for the food.</li>
+<li><em>ought to</em> = We ought to go by plane </li>
+<li><em>be able to</em> = I will be able to play soccer again 
+	I am able to drive</li>
+	</ul>
+
+	<img class="imgArticles" src="./img/hadbetter.png" alt="had better"><br>
+		<q><a href="https://bit.ly/3c1m2kT" target="_blank" rel="noopener noreferrer">YouEnglish</a>
+				Date accessed:August 16, 2022</q>
+</section><hr>
+<section>
+	<h4 id="maybe">Maybe and may be</h4>
+	<img class="imgArticles" src="./img/maybe.png" alt="Maybe"><br>
+	<q><a href="https://bit.ly/3AoFBNu" target="_blank" rel="noopener noreferrer">
+		May Be" vs. "Maybe": Learn When Each One Might Be Used</a><br>
+		Date accessed: August 16, 2022 - Date published:February 25, 2022</q>
+	<p>
+	<h5>Examples</h5>
+	<ul>
+		<li>maybe it goes to the beginning of the sentence = perhaps</li>
+	<li>Maybe someday we can go for skiing in France.</li>
+	<li>Maybe he didn't text because he was feeling ill.</li>
+	<li>This concert may be the last one from the Vicent Gomez.</li>
+	<li>This may be the last time I come.</li>
+	</ul>
+	</p>
+</section><hr>
+<section>
+	<h4 id="avmodals">Advice modals</h4>
+	<li><b>With friends ej: =</b> She should buy a gift at the mall</li>
+	<li><b>conversation = </b> she ought to buy a gift at the mall</li>
+	<li><b>strong = </b> she had better buy a gift at the mall</li>
+	<p><em>Don't no use ought not,</em> Better: she should not spent to much time at the mall
+	 or she had better not spend too much time at the mall</p>
+</section><hr>
+<section>
+	<h4 id="adjectives">Adjectives</h4>
+	<p>When more than one adjective comes before a noun, the adjectives are normally
+		in a particular order. Adjectives which describe opinions or attitudes
+		(e.g. amazing) usually come first, before more neutral, factual ones (e.g. red):
+		<em>She was wearing an amazing red coat</em>.		
+		Not: … red amazing coat</p>
+		<q><a href="https://bit.ly/3dzt5C2" target="_blank" rel="noopener noreferrer">
+			English Grammar Today - Cambridge Dictionary</a>
+			-Date accessed:August 16, 2022</q>
+			
+	<p>
+		<img class="imgArticles"  src="./img/oughtTo.png" alt="oughtTo">
+		<q><a href="http://bit.ly/3JZShNV" target="_blank" rel="noopener noreferrer">
+			Everybody Ought to have a Maid</a> -Date accessed:August 16, 2022</q>
+	<h5>Order:</h5> 
+		number, opinion, size, shape, condition, age, color, pattern, origin, material, purpose.
+		</p>
+		<p><em>NOW ON SMALL SLIM COUCHES A CAT PUTS ON MAGIC PIJAMAS</em></p>
+</section><hr>
+
+<section>
+	<h4 id="boring">Boring and Bored</h4>
+	<p>Bored is an English adjective used when someone is uninterested or 
+	uninspired by a person or event. Boring an English adjective is used
+	to describe the object or person that makes us feel uninterested or uninspired.</p>
+	<q><a href="https://bit.ly/3pkhPMq" target="_blank" rel="noopener noreferrer">
+		Bored or Boring? Learn the difference with Examples
+	</a>Date accessed: August 16, 2022-Date published:July 14, 2020</q>
+	<p><ul>
+		<li>The child is bored = this person is no interesting</li>
+	<li>The child is boring = It's because he has nothing fun to do</li>
+	<li>The rain Is boring</li>
+	</ul>
+	</p>
+	</section><hr>
+
+<section>
+	<h4 id="comsup">Comparative and superlative
+	</h4>
+	<p>
+		Comparatives and superlatives are special types of adjectives used when 
+		comparing two or more things. The trickiest thing when using comparatives
+		and superlatives is making sure we are writing them the correct way, 
+		but with a little practice, comparatives and superlatives can quickly be mastered.
+		 <h5>Comparative with 2 things </h5>
+		 <ul>
+			<li>A is smaller than B</li>
+		 <li>A is more expensive than B</li>
+		 <li>A is more farther than B</li></ul>
+		 <ul>
+			<li>big = bigger</li>
+			<li>Spicy = spicier</li>
+		 </ul>
+		
+		 <h5>Superlative with 3 things</h5>
+		<ul>
+			<li>C is the most expensive</li>
+			<li>	C is the farthest</li>
+			<li>C is the closest</li>
+			<li>C is the lowest</li>
+		</ul>
+
+		<h5>With irregular </h5>
+		<ul>
+			<li>good, better, best</li>
+			<li>bad, worse, worst</li>
+			<li>far, farther, farthest</li>
+		</ul>
+					
+		
+		<img class="imgArticles" src="./img/everest.png" alt=""> <br>
+		<q>Article title <a href="https://bit.ly/3bXvjKZ" target="_blank" rel="noopener noreferrer">
+			National Geographic Society-Mount Everest</a> <br>
+			Date accessed:August 16, 2022</q><br>
+		<main>
+			<img class="imgArticles" src="./img/smallest.png" alt="smallest"><br>
+			<q><a href="http://bit.ly/3Py2nH4" target="_blank" rel="noopener noreferrer">
+				Smallest amphibian-Guinness World Records</a> <br>				
+				Date accessed: August 16, 2022</q>
+		</main>
+	</p>
+
+		
+</section> <hr>
+
+<section>
+	<h4 id="AdjClaus">Adjective clauses</h4>
+	<p> An adjective clause (also called relative clause) is a dependent clause
+	that modifies a noun or pronoun. It tells which one or what kind.
+	Adjective clauses almost always come right after the nouns they modify.</p>
+	<p>
+		<h5>Describe a noun </h5>
+		<ul>
+			<li>The man who is...</li>
+			<li>These people who are sitting..</li>
+			<li>That witch  = for things</li>
+			<li>That who = for people</li>
+			<li>Whom = is more formal</li>
+			<li>Whose = cuyo, I met a man whose mustache is very long</li>
+		</ul>
+		 <q> <a href="http://bit.ly/3plGCzB" target="_blank" rel="noopener noreferrer">
+			English Grammar 101 </a>-Date accessed:August 16, 2022</q>	
+		
+	</p>
+</section><hr>
+
+<section>
+	<h4 id="adjprep">Adjective clauses with prepositions</h4>
+	<p><ul>
+		<b>Main clause    -- adjective clause</b>
+	<li>That is the teacher -- I spoke yesterday to her</li>
+	<li>That is the teacher whom I spoke to yesterday</li>
+	<li>Who, Whom, That, whose = people</li>
+	<li>Wich, that, whose = things</li>
+	<li>When = time, period, year.</li>	
+	</ul>
+		</p>
+
+		<img class="imgArticles" src="./img/prepositions.png" alt="preposition"><br>
+		<q><a href="http://bit.ly/3JVVlLb" target="_blank" rel="noopener noreferrer">English Grammar: Adjective Clauses with Prepositions
+
+		</a> - Date accessed:August 16, 2022</q><br>
+</section>
+		</div>
+		<footer>
+			<p>
+				<a href="https://www.instagram.com/zeus_le.chien/" target="blank"><i class="fab fa-instagram"></i>
+					Instagram </a> &nbsp
+				<a href="https://www.linkedin.com/in/maira-diaz" target="_blank"><i class="fab fa-linkedin-in"></i>
+					LinkedIn </a> &nbsp
+				<a href="https://bit.ly/3S8PLsB" target="_blank"><i class="fab fa-youtube"></i> Youtube</a>
+			</p>
+
+
+		</footer>
+	</div>
+
+	<script src="/app.js"></script>
+
+
+	
+</body>
+
+
+</html>
